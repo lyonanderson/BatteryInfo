@@ -17,7 +17,6 @@
 		AD21FFA116145840001E968E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD21FFA016145840001E968E /* Default@2x.png */; };
 		AD21FFA316145840001E968E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD21FFA216145840001E968E /* Default-568h@2x.png */; };
 		AD21FFA616145840001E968E /* ELViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD21FFA516145840001E968E /* ELViewController.m */; };
-		AD21FFA916145840001E968E /* ELViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD21FFA716145840001E968E /* ELViewController.xib */; };
 		AD21FFB116145840001E968E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21FFB016145840001E968E /* SenTestingKit.framework */; };
 		AD21FFB216145840001E968E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21FF8C16145840001E968E /* UIKit.framework */; };
 		AD21FFB316145840001E968E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD21FF8E16145840001E968E /* Foundation.framework */; };
@@ -51,7 +50,6 @@
 		AD21FFA216145840001E968E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AD21FFA416145840001E968E /* ELViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELViewController.h; sourceTree = "<group>"; };
 		AD21FFA516145840001E968E /* ELViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELViewController.m; sourceTree = "<group>"; };
-		AD21FFA816145840001E968E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ELViewController.xib; sourceTree = "<group>"; };
 		AD21FFAF16145840001E968E /* BatteryInfoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryInfoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD21FFB016145840001E968E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AD21FFB816145840001E968E /* BatteryInfoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatteryInfoTests-Info.plist"; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 				AD21FF9C16145840001E968E /* ELAppDelegate.m */,
 				AD21FFA416145840001E968E /* ELViewController.h */,
 				AD21FFA516145840001E968E /* ELViewController.m */,
-				AD21FFA716145840001E968E /* ELViewController.xib */,
 				AD21FF9316145840001E968E /* Supporting Files */,
 			);
 			path = BatteryInfo;
@@ -236,7 +233,6 @@
 				AD21FF9F16145840001E968E /* Default.png in Resources */,
 				AD21FFA116145840001E968E /* Default@2x.png in Resources */,
 				AD21FFA316145840001E968E /* Default-568h@2x.png in Resources */,
-				AD21FFA916145840001E968E /* ELViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +298,6 @@
 				AD21FF9616145840001E968E /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AD21FFA716145840001E968E /* ELViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD21FFA816145840001E968E /* en */,
-			);
-			name = ELViewController.xib;
 			sourceTree = "<group>";
 		};
 		AD21FFB916145840001E968E /* InfoPlist.strings */ = {
